@@ -149,6 +149,7 @@ img {
 
     a {
         color: #c9bebe;
+        text-shadow: 8px 4px 6px #6a8dec;
     }
 }
 
@@ -156,6 +157,7 @@ img {
 .home__social {
     a {
         color: #c9bebe;
+        text-shadow: 1px 3px 6px #6a8dec;
     }
 }
 
@@ -240,6 +242,7 @@ img {
         background: -webkit-linear-gradient(#eee, #504dde);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        text-shadow: 1px 1px 0px #6a8dec;
 
         &-color {
             color: var(--first-color);

@@ -14,8 +14,8 @@
     /*===== Fuente y tipografia =====*/
     --body-font: "Poppins", sans-serif;
 
-    --big-font-size: 2rem;
-    --h2-font-size: 1.25rem;
+    --big-font-size: 1.8rem;
+    --h2-font-size: 1.2rem;
     --normal-font-size: 0.938rem;
     --smaller-font-size: 0.75rem;
 
@@ -30,8 +30,8 @@
     --z-fixed: 100;
 
     @media screen and (min-width: 968px) {
-        --big-font-size: 3rem;
-        --h2-font-size: 2rem;
+        --big-font-size: 2.5rem;
+        --h2-font-size: 1.8rem;
         --normal-font-size: 1rem;
         --smaller-font-size: 0.875rem;
     }
@@ -127,15 +127,25 @@ img {
     left: 0;
     z-index: var(--z-fixed);
     // background-color: var(--first-color);
-    background: #4b79a1; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #283e51, #4b79a1); /* Chrome 10-25, Safari 5.1-6 */
+    // background: #4b79a1; /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to right, #283e51, #4b79a1); /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(
+    //     to right,
+    //     #283e51,
+    //     #4b79a1
+    // ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    // background: linear-gradient(to right, rgb(56 63 84), rgb(62 111 244));
+
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
         to right,
-        #283e51,
-        #4b79a1
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        #434343,
+        #000000
+    );
 
-    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+    // box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 
     a {
         color: #c9bebe;
@@ -207,7 +217,7 @@ img {
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: #fff;
+    background-color: var(--first-color);
 }
 
 /*=== Show menu ===*/
